@@ -10,10 +10,23 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: ALIYA ASAD
 
 ```
-Please write your explanation here...
+Sampling Procedure in the model
+Stage 1: Primary infection sampling
+The sample frame includes all 1000 event attendees. The model assumes that each person has a 10% probability(ATTACK_RATE = 0.10) of being infected, following a Bernoulli distribution. This means that, on average, 100 individuals are infected in each simulation, though the exact number varies due to randomness. Since infection status is assigned independently for each person, each simulation run produces slightly different results while maintaining the same probability distribution.
+Stage 2: Contact tracing
+ - Primary contact tracing: The sampling frame consists of infected individuals who have been traced back to the event where exposure occurred. The sampling process involves tracing infected individuals back to their exposure event.  Due to limitations in tracing methods, only 20%(TRACE_SUCCESS = 0.20)  of infections are successfully traced.  The sample size is thus 20% of the total infected population. This constitutes a non-probability, convenience-based sampling approach, as tracing efforts focus on readily identifiable infections within the discovered infected population.
+ - Secondary contact tracing: the sampling frame is events where two or more infections were traced back to through primary contact. The sampling process will be, if an event meets this threshold (SECONDARY_TRACE_THRESHOLD = 2),everyone at that event is assumed to be tested, and all infected individuals are identified. Sample size here would vary according to the infected number of attendees. 
+
+
+Comparing the results of both graphs: 
+The graph from our Python simulation suggests that almost all infections can be traced back to the events, showing a strong correlation between infections from wedding and traced cases to wedding.
+The graph from the article, however, shows a much weaker correlation between observed cases and the true proportion of infections from weddings. This suggests that in real-world scenarios, people can get infected from sources other than weddings. 
+
+Changing number of simulations 
+Reducing the number of simulations from 1000 to 100 still demonstrates a correlation between infections traced to weddings and infections originating from weddings. However, with only 100 simulations, the results show greater variability, making them less reliable and less reproducible compared to running 1000 simulations. This aligns with the Law of Large Numbers, which states that increasing the number of trials reduces variability, leading to more accurate and consistent results.
 
 ```
 
