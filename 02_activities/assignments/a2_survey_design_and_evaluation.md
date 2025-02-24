@@ -44,26 +44,61 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
-```
+The purpose of thi s survey is to understand what factors make be contributing to the high turn-over rate within entry & lower level positions at FreshBite Inc. The key areas where we want to guage employee experience is career growth, work-life balance, compensation and relationship with immediate supervisor
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
-```
+- Target population will all employee working at Freshbite Inc.
+- Sampling frame: will be all employees at Freshbite Inc. The frame will include people from all departments and job levels so we can make a better comparison and have more wholistic data on our hands. 
+- Sampling unit will be the individuals employees within the company.
+- The observational units refer to the specific data points collected from each employee, including their responses to the survey questions regarding tenure, department, job level, job satisfaction, feedback on management, and suggestions for improvements. Each response will be analyzed to identify trends and areas needing attention within the organization
 
 Your 5-10 question survey:
-```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+## Employee Experience Survey
+
+## Q1: What is your current tenure in the organization?
+- Less than 1 year
+- 0-5 years
+- 5-10 years
+- 10-15 years
+- 15-20 years
+- More than 20 years
+
+## Q2: Which department are you currently working in?
+- Facilities & Maintenance
+- FSQA
+- Production – Plating & Casing
+- Kitchen
+- Sanitation
+- People & Culture
+- Procurement
+- Warehouse
+
+## Q3: What is your current band within FreshBite Inc.?
+- Band A - C
+- Band E - F
+- Band G - H
+- Band K & above
+
+## Q4: Please read each statement carefully and select your level of agreement.
+
+| Statement                                                                                       | Strongly Agree | Agree | Neutral | Disagree | Strongly Disagree |
+|-------------------------------------------------------------------------------------------------|----------------|-------|---------|----------|-------------------|
+| My immediate supervisor/manager provides me with timely and constructive feedback.              |                |       |         |          |                   |
+| My immediate supervisor/manager provides appropriate recognition when I do a good job.         |                |       |         |          |                   |
+| I generally look forward to going to work.                                                    |                |       |         |          |                   |
+| FreshBite Inc. supports a healthy work-life balance for employees.                             |                |       |         |          |                   |
+| I believe my compensation is fair for the work I do.                                         |                |       |         |          |                   |
+| FreshBite Inc. offers competitive benefits and perks compared to other companies in the industry.|                |       |         |          |                   |
+| I have access to career growth opportunities within FreshBite Inc.                            |                |       |         |          |                   |
+| I receive enough support for my professional development and career advancement.               |                |       |         |          |                   |
+
+## Q5: What new practices or initiatives would you suggest FreshBite Inc. implement to improve the employee experience?
+
+## Q6: Are there any current practices at FreshBite Inc. that you believe should be discontinued?
+
+## Q7: What is FreshBite Inc. doing well that it should continue to develop?
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -72,7 +107,20 @@ Identify and describe survey features:
 
 ```
 write your answer here
-```
+1. Sample type: Stratified sampling which allows for probability sampling. The stratas were based on geographic areas
+2. Sample size: Approximately 50,000 units were selected, with about 40,000 invitation letters sent. A completion of 24,000 questionnaires was expected.
+3. Target population: All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+4. Sampling frame: This survey uses a frame that combines landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame
+5. Survey mode(s): electronic questionnaire or through CATI (computer assisted telephone interviewing)
+6. Timeline: Data collection for this reference period: 2018-09-04 to 2018-12-28
+7. Response rate: The overall response rate is 41.9%.
+8. Weights: Each respondent was representing 50 persons in the population. The weights were adjusted so that the weighted income distribution of GVP matched the 2017 CIS distribution by province
+9. Data processing: A structured data processing environment, utilizing the SSPE framework, allowed for the production of timely, high-quality survey outputs. Both automated and manual edits, including consistency checks, were performed at various levels. The CATI system handled immediate error correction, and further detailed checks were performed by head office personnel.
+10. Cleaning, imputation, etc: Data processing is conducted in a structured environment to ensure adherence to best practices. Both automated and manual edits are applied at macro and micro levels, including family relationship checks, consistency edits verifying data like age and birth dates, and flow edits to ensure respondents follow the correct questionnaire path. The Computer-Assisted Telephone Interviewing (CATI) system integrates error detection with valid code ranges and built-in edits, resolving issues with respondents in real time. Unresolved errors are forwarded to the head office for additional checks. For imputation, donor records are selected based on a scoring function, with mean imputation used when necessary. The GVP system enhances response completeness by utilizing data from similar respondents.
+11. Sources of error: Non-response and imperfect coverage were non-sampling errors. Houses without telephone were excluded from the frame automatically due to survey methodology. This was a sampling error
+12. Limitations, known biases, etc: Coverage errors arise when the sampling frame does not align perfectly with the target population, leading to the exclusion of certain groups, particularly due to past limitations in telephone coverage and changes in technology. Statistics Canada aims to improve frame coverage by combining various data sources, though some limitations remain. Non-response bias occurs when selected individuals either refuse to participate or cannot be reached, potentially leading to systematic differences in the results. Mitigation strategies include weighting adjustments, follow-up efforts, and utilizing linked administrative data. Additionally, sampling error causes variation in estimates, while response errors arise from inaccurate information due to recall bias, misunderstanding, or social desirability. Finally, processing errors during data entry and coding can yield inaccurate results, which rigorous editing and quality control procedures aim to minimize.
+13. Link to documentation and any additional sources used
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 
 ## Rubric
 
