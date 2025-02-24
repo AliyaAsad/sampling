@@ -44,7 +44,7 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-The purpose of thi s survey is to understand what factors make be contributing to the high turn-over rate within entry & lower level positions at FreshBite Inc. The key areas where we want to guage employee experience is career growth, work-life balance, compensation and relationship with immediate supervisor
+The purpose of this survey is to understand what factors make be contributing to the high turn-over rate within entry & lower level positions at FreshBite Inc. The key areas where we want to guage employee experience is career growth, work-life balance, compensation and relationship with immediate supervisor
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
@@ -105,8 +105,6 @@ Your 5-10 question survey:
 
 Identify and describe survey features:
 
-```
-write your answer here
 1. Sample type: Stratified sampling which allows for probability sampling. The stratas were based on geographic areas
 2. Sample size: Approximately 50,000 units were selected, with about 40,000 invitation letters sent. A completion of 24,000 questionnaires was expected.
 3. Target population: All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
