@@ -52,6 +52,8 @@ Describe your target population, sampling frame, sampling units, and observation
 - Sampling frame: will be all employees at Freshbite Inc. The frame will include people from all departments and job levels so we can make a better comparison and have more wholistic data on our hands. 
 - Sampling unit will be the individual employees within the company.
 - The observational units refer to the specific data points collected from each employee, including their responses to the survey questions regarding tenure, department, job level, job satisfaction, feedback on management, and suggestions for improvements. Each response will be analyzed to identify trends and areas needing attention within the organization
+I will use stratified sampling, where each strata is based on the different bands identified in Q3. An electronic survey will be distributed to all participants, ensuring that each individual has an equal opportunity to respond. 
+This approach follows a stratified simple random sampling method.
 
 Your 5-10 question survey:
 ## Employee Experience Survey
@@ -67,7 +69,8 @@ Your 5-10 question survey:
 ## Q2: Which department are you currently working in?
 - Facilities & Maintenance
 - FSQA
-- Production – Plating & Casing
+- Production 
+– Plating & Casing
 - Kitchen
 - Sanitation
 - People & Culture
